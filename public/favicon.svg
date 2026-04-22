@@ -1,4 +1,10 @@
 <svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="14" fill="#c4622d"/>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#0a95ac"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg-gradient)"/>
   <text x="32" y="46" font-family="Georgia, serif" font-size="36" font-weight="400" font-style="italic" fill="#faf7f2" text-anchor="middle">A</text>
 </svg>

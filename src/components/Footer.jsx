@@ -11,7 +11,7 @@ export default function Footer() {
     <footer className="border-t border-[#e0e7ff] bg-[#ffffff]">
       <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-3">
         <p className="text-xs text-[#475569]">
-          © {new Date().getFullYear()} {PROFILE.name}
+          &copy; {new Date().getFullYear()} {PROFILE.name}
         </p>
         <div className="flex gap-5">
           {socials.map((s) => (

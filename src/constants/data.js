@@ -71,6 +71,18 @@ export const PROJECTS = [
     featured: false,
     emoji: "💳",
   },
+  {
+    id: 3,
+    tag: "SaaS",
+    name: "Kanjirapally Kappi",
+    description:
+      "A modern dynamic website for Kanjirapally kappi",
+    techs: ["React TS", "Tailwind CSS",  "Supabase","GCP"],
+    liveUrl: "https://kanjirapallykappi.com/",
+    // caseStudyUrl: "#",
+    featured: false,
+    emoji: "💳",
+  },
 ];
 
 export const EXPERIENCE = [
